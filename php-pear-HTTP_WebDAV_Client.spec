@@ -16,6 +16,7 @@ Requires(preun): php-pear
 Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	dos2unix
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 RFC2518 compliant stream wrapper that allows to use WebDAV server
