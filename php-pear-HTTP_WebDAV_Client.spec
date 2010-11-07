@@ -3,8 +3,8 @@
 %define		upstream_name	%{_class}_%{_subclass}_Client
 
 Name:		php-pear-%{upstream_name}
-Version:	1.0.0
-Release:	%mkrel 4
+Version:	1.0.1
+Release:	%mkrel 1
 Summary:	WebDAV stream wrapper class
 License:	PHP License
 Group:		Development/PHP
