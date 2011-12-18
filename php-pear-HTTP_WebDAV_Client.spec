@@ -3,13 +3,13 @@
 %define		upstream_name	%{_class}_%{_subclass}_Client
 
 Name:		php-pear-%{upstream_name}
-Version:	1.0.1
-Release:	%mkrel 3
+Version:	1.0.2
+Release:	%mkrel 1
 Summary:	WebDAV stream wrapper class
 License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/HTTP_WebDAV_Client/
-Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tar.bz2
+Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
@@ -34,6 +34,7 @@ rm -rf %{buildroot}%{_datadir}/pear/.??*
 
 rm -rf %{buildroot}%{_datadir}/pear/docs
 rm -rf %{buildroot}%{_datadir}/pear/tests
+rm -rf %{buildroot}%{_datadir}/pear/data
 
 install -d %{buildroot}%{_datadir}/pear/packages
 install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
