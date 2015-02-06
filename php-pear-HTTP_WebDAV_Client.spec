@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	1.0.2
-Release:	2
+Release:	3
 Summary:	WebDAV stream wrapper class
 License:	PHP License
 Group:		Development/PHP
