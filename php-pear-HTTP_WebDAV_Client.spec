@@ -8,7 +8,7 @@ Release:	3
 Summary:	WebDAV stream wrapper class
 License:	PHP License
 Group:		Development/PHP
-URL:		http://pear.php.net/package/HTTP_WebDAV_Client/
+URL:		https://pear.php.net/package/HTTP_WebDAV_Client/
 Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
